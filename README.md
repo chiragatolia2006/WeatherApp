@@ -1,4 +1,4 @@
-# 🌤️ Weather App
+# 🌤️ Weather App using **React.js** and **Vite**
 
 A modern and responsive Weather App built using **React.js** and **Vite**.
 
