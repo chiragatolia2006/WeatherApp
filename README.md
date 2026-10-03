@@ -4,12 +4,6 @@ A modern and responsive Weather App built using **React.js** and **Vite**.
 
 This application allows users to search for any city and get its current weather information in a clean and simple interface. The app fetches real-time weather data using the **OpenWeather API** and presents it using a modern glassmorphism-inspired UI.
 
----
-
-## 🚀 Live Demo
-
-🔗 **Live Website:**  
-https://react-weather-app-nine.psi.vercel.app/
 
 ---
 
@@ -37,7 +31,6 @@ https://react-weather-app-nine.psi.vercel.app/
 - **Material UI** – UI components
 - **CSS** – Styling and responsive design
 - **OpenWeather API** – Real-time weather data
-- **Vercel** – Deployment
 
 ---
 
