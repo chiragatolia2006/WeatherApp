@@ -1,16 +1,62 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive Weather App built using **React.js** and **Vite**.
 
-Currently, two official plugins are available:
+This application allows users to search for any city and get its current weather information in a clean and simple interface. The app fetches real-time weather data using the **OpenWeather API** and presents it using a modern glassmorphism-inspired UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Live Website:**  
+https://react-weather-app-nine.psi.vercel.app/
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ✨ Features
+
+- 🔍 Search weather by city name
+- 🌡️ Current temperature
+- 🌤️ Current weather condition
+- 💧 Humidity information
+- 💨 Wind speed
+- 🔥 Maximum temperature
+- ❄️ Minimum temperature
+- 🌡️ Feels-like temperature
+- 🪟 Modern glassmorphism UI
+- 📱 Responsive design
+- ⚡ Fast and lightweight React application
+
+---
+
+## 🛠️ Technologies Used
+
+- **React.js** – Frontend library
+- **Vite** – Development and build tool
+- **JavaScript** – Application logic
+- **Material UI** – UI components
+- **CSS** – Styling and responsive design
+- **OpenWeather API** – Real-time weather data
+- **Vercel** – Deployment
+
+---
+
+## 🌦️ How It Works
+
+1. User enters the name of a city.
+2. The application sends a request to the OpenWeather API.
+3. Weather data is received from the API.
+4. The application extracts the required information.
+5. Weather details are displayed in the dashboard.
+
+The application displays:
+
+```text
+City
+Weather Condition
+Temperature
+Feels Like
+Humidity
+Wind Speed
+Maximum Temperature
+Minimum Temperature
