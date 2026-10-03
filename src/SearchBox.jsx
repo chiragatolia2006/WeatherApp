@@ -8,7 +8,7 @@ export default function SearchBox ({ updateInfo }) {
     let [error , setError] = useState(false);
    
     const API_URL ="https://api.openweathermap.org/data/2.5/weather" 
-    const API_KEY = "40792d8a7d00531f7b5892691aa8f734";
+    const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
     let getWeatherInfo = async() => {
         try {
